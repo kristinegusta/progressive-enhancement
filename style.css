@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(90deg, #f7f7f7, #ecc8e7);
+  max-width: 90%;
+  margin: auto;
+  background-image: url("https://media.istockphoto.com/vectors/heart-pattern-vector-id638730224?k=20&m=638730224&s=612x612&w=0&h=1F6xGWRZttYzpH26gb0-pKiDFH_0Z6Jd3cgI5sBoFaA=");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+p {
+  font-family: Times, serif;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+  color: #431106;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+a {
+  font-size: larger;
+  line-height: 2;
+  transition: background-color 0.5s;
+}
+
+a:hover {
+  color: darkred;
+}
+a:visited {
+  color: darkslateblue;
+}
+blockquote {
+  max-width: 50%;
+  margin: auto;
+  font-size: 160%;
+  background-color: #f5f5f5;
+  border-left: 3px solid firebrick;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
