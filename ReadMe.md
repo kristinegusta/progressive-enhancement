@@ -26,7 +26,7 @@ If our pages are not very semantic, Google will not show them, and your sites wi
 
 Selectors, property, values ! 
 
-Most important - ***Box Model *** and ***Flexbox Model*** 
+Most important - ***Box Model *** and ***Flexbox Model*** , ***positioning*** .
 
 Flexbox’s underlying principle is to make layouts flexible and intuitive.
 
@@ -40,3 +40,11 @@ Use :
 - Flex Direction
 - Justify Content (main axis)
 - Align Items (cross axis)
+
+
+The flow is the default behavior. You may need an element to exit the position flow.
+
+position : static | relative | absolute | fixed | sticky;
+
+The position property allows you to position an element anywhere (via the top and left properties), from the coordinates of its first parent in position: relative or static.
+
