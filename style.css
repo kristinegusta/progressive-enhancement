@@ -28,13 +28,71 @@ a:hover {
 a:visited {
   color: darkslateblue;
 }
+a:visited:hover {
+  color: #db20d2;
+}
 blockquote {
   max-width: 50%;
   margin: auto;
   font-size: 160%;
+  font-style: italic;
   background-color: #f5f5f5;
   border-left: 3px solid firebrick;
   padding-left: 30px;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+q {
+  font-style: italic;
+}
+.farmer {
+  border-left: 3px solid green;
+}
+.villager {
+  border-left: 3px solid brown;
+}
+header p {
+  background-color: yellow;
+}
+span {
+  text-transform: uppercase;
+}
+.good {
+  color: green;
+}
+.bad {
+  color: red;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+  background-color: rgb(177, 177, 177);
+}
+li {
+  max-width: max-content;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 10%;
+  height: 50px;
+}
+li:nth-child(1) {
+  background-image: url("bien.png");
+}
+li:nth-child(2) {
+  background-image: url("mal.png");
+}
+li:nth-child(3) {
+  background-image: url("chat.png");
+}
+p:first-of-type {
+  font-weight: bold;
+}
+img {
+  width: 200px;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
