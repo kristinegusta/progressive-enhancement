@@ -48,3 +48,11 @@ position : static | relative | absolute | fixed | sticky;
 
 The position property allows you to position an element anywhere (via the top and left properties), from the coordinates of its first parent in position: relative or static.
 
+The answer to exercise - Put the notification block in the bottom right corner of the browser, even if you scroll :
+
+```
+position: sticky;
+top: 80%;
+left: 80%;
+
+```
